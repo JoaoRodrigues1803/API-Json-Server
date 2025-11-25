@@ -1,0 +1,112 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "João Silva",
+      "telefone": "11987654321",
+      "email": "joao@example.com",
+      "senha": "senha123",
+      "data_cadastro": "2023-01-15T10:00:00Z",
+      "auth_id": "f4e7c6c1-bd7a-4f8e-a0b0-d6f9b2f24977",
+      "avatar": "https://example.com/avatar1.png"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Souza",
+      "telefone": "11912345678",
+      "email": "maria@example.com",
+      "senha": "senha456",
+      "data_cadastro": "2023-02-20T12:30:00Z",
+      "auth_id": "ab35c5d2-95b8-45c4-a739-cbe7b2d10b88",
+      "avatar": "https://example.com/avatar2.png"
+    }
+  ],
+  "pets": [
+    {
+      "id": 1,
+      "tipo_animal": "Cachorro",
+      "nome": "Rex",
+      "raca": "Labrador",
+      "pelagem": "Curta",
+      "data_nascimento": "2020-05-12",
+      "porte": "Médio",
+      "peso": 20.5,
+      "sexo": "Macho",
+      "vacinas": true,
+      "vermifugado": true,
+      "castrado": false,
+      "tutor_id": 1,
+      "mac_placa": "00:14:22:01:23:45",
+      "tutor_auth": "f4e7c6c1-bd7a-4f8e-a0b0-d6f9b2f24977"
+    },
+    {
+      "id": 2,
+      "tipo_animal": "Gato",
+      "nome": "Mia",
+      "raca": "Siames",
+      "pelagem": "Curta",
+      "data_nascimento": "2021-03-28",
+      "porte": "Pequeno",
+      "peso": 4.5,
+      "sexo": "Fêmea",
+      "vacinas": true,
+      "vermifugado": true,
+      "castrado": true,
+      "tutor_id": 2,
+      "mac_placa": "00:14:22:01:23:46",
+      "tutor_auth": "ab35c5d2-95b8-45c4-a739-cbe7b2d10b88"
+    }
+  ],
+  "agenda_eventos": [
+    {
+      "id": 1,
+      "user_id": "f4e7c6c1-bd7a-4f8e-a0b0-d6f9b2f24977",
+      "date": "2023-11-15T09:00:00Z",
+      "description": "Consulta veterinária"
+    },
+    {
+      "id": 2,
+      "user_id": "ab35c5d2-95b8-45c4-a739-cbe7b2d10b88",
+      "date": "2023-11-20T14:30:00Z",
+      "description": "Vacinação anual"
+    }
+  ],
+  "dados_sensor": [
+    {
+      "mac_placa": "00:14:22:01:23:45",
+      "data": "2023-11-14T08:00:00Z",
+      "valores": {
+        "temperatura": 37.5,
+        "umidade": 60,
+        "batimentos": 80
+      }
+    },
+    {
+      "mac_placa": "00:14:22:01:23:46",
+      "data": "2023-11-14T08:05:00Z",
+      "valores": {
+        "temperatura": 38.2,
+        "umidade": 55,
+        "batimentos": 85
+      }
+    }
+  ],
+  "frequencia_cardiaca_config": [
+    {
+      "id": 1,
+      "idade_min": 1,
+      "idade_max": 5,
+      "batimento_min": 70,
+      "batimento_max": 120,
+      "observacao": "Valores normais para cães jovens"
+    },
+    {
+      "id": 2,
+      "idade_min": 6,
+      "idade_max": 10,
+      "batimento_min": 60,
+      "batimento_max": 110,
+      "observacao": "Valores normais para cães adultos"
+    }
+  ]
+}
