@@ -76,18 +76,18 @@
       "mac_placa": "00:14:22:01:23:45",
       "data": "2023-11-14T08:00:00Z",
       "valores": {
-        "temperatura": 37.5,
-        "umidade": 60,
-        "batimentos": 80
+        "frequencia": 95,
+        "latitude": -23.105350393014014,
+        "longitude":-47.708573184656814
       }
     },
     {
       "mac_placa": "00:14:22:01:23:46",
       "data": "2023-11-14T08:05:00Z",
       "valores": {
-        "temperatura": 38.2,
-        "umidade": 55,
-        "batimentos": 85
+        "frequencia": 95,
+        "latitude": -23.105350393014014,
+        "longitude":-47.708573184656814
       }
     }
   ],
